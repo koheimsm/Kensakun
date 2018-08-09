@@ -1,0 +1,6 @@
+framework module Salada {
+  umbrella header "Salada-umbrella.h"
+
+  export *
+  module * { export * }
+}

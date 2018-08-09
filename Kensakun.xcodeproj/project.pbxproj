@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55032DCA201B07E600395589 /* detailOfWantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55032DC9201B07E600395589 /* detailOfWantViewController.swift */; };
+		552F438E201887940013CBEC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F438D201887940013CBEC /* CustomTableViewCell.swift */; };
+		552F439020188DC60013CBEC /* tableWantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F438F20188DC60013CBEC /* tableWantsViewController.swift */; };
+		552F439220189ABE0013CBEC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F439120189ABE0013CBEC /* WelcomeViewController.swift */; };
+		552F439420189C320013CBEC /* Helper Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F439320189C320013CBEC /* Helper Files.swift */; };
+		552F43982018AEC70013CBEC /* top.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F43972018AEC70013CBEC /* top.swift */; };
+		552F439A2018BE900013CBEC /* AgainWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F43992018BE900013CBEC /* AgainWelcomeViewController.swift */; };
+		558EB30C207DFB0600698EC0 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558EB30B207DFB0600698EC0 /* MessageViewController.swift */; };
+		55E7BE612017283400183DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7BE602017283400183DBD /* AppDelegate.swift */; };
+		55E7BE632017283400183DBD /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7BE622017283400183DBD /* PostViewController.swift */; };
+		55E7BE662017283400183DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E7BE642017283400183DBD /* Main.storyboard */; };
+		55E7BE682017283400183DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E7BE672017283400183DBD /* Assets.xcassets */; };
+		55E7BE6B2017283400183DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E7BE692017283400183DBD /* LaunchScreen.storyboard */; };
+		55E7BE762017283500183DBD /* KensakunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7BE752017283500183DBD /* KensakunTests.swift */; };
+		55E7BE812017283500183DBD /* KensakunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7BE802017283500183DBD /* KensakunUITests.swift */; };
+		55E7BE8F20172C4700183DBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55E7BE8E20172C4700183DBD /* GoogleService-Info.plist */; };
+		75814A62655C45F84C6D7CF5 /* Pods_KensakunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA94D2D48C58C0A11BED3C6 /* Pods_KensakunUITests.framework */; };
+		8C82CD615DFE92DCEC054EB4 /* Pods_Kensakun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB65F0F598F7F779CBEFCA7 /* Pods_Kensakun.framework */; };
+		B6720A4115602F787C8EC197 /* Pods_KensakunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44920761CCF3E74014A267C0 /* Pods_KensakunTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E7BE722017283500183DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E7BE552017283400183DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E7BE5C2017283400183DBD;
+			remoteInfo = Kensakun;
+		};
+		55E7BE7D2017283500183DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E7BE552017283400183DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E7BE5C2017283400183DBD;
+			remoteInfo = Kensakun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA94D2D48C58C0A11BED3C6 /* Pods_KensakunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KensakunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A126AC05C7E7FAD4B9AC10 /* Pods-KensakunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KensakunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KensakunTests/Pods-KensakunTests.release.xcconfig"; sourceTree = "<group>"; };
+		44920761CCF3E74014A267C0 /* Pods_KensakunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KensakunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55032DC9201B07E600395589 /* detailOfWantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailOfWantViewController.swift; sourceTree = "<group>"; };
+		552F438D201887940013CBEC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		552F438F20188DC60013CBEC /* tableWantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableWantsViewController.swift; sourceTree = "<group>"; };
+		552F439120189ABE0013CBEC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		552F439320189C320013CBEC /* Helper Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper Files.swift"; sourceTree = "<group>"; };
+		552F43972018AEC70013CBEC /* top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = top.swift; sourceTree = "<group>"; };
+		552F43992018BE900013CBEC /* AgainWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgainWelcomeViewController.swift; sourceTree = "<group>"; };
+		558EB30B207DFB0600698EC0 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		55E7BE5D2017283400183DBD /* Kensakun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kensakun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E7BE602017283400183DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55E7BE622017283400183DBD /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		55E7BE652017283400183DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E7BE672017283400183DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E7BE6A2017283400183DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E7BE6C2017283400183DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E7BE712017283500183DBD /* KensakunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KensakunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E7BE752017283500183DBD /* KensakunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KensakunTests.swift; sourceTree = "<group>"; };
+		55E7BE772017283500183DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E7BE7C2017283500183DBD /* KensakunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KensakunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E7BE802017283500183DBD /* KensakunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KensakunUITests.swift; sourceTree = "<group>"; };
+		55E7BE822017283500183DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E7BE8E20172C4700183DBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FDC19A721CFF35601530B63 /* Pods-KensakunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KensakunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KensakunTests/Pods-KensakunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		865627DEE5EF9A8E108CFBEE /* Pods-KensakunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KensakunUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KensakunUITests/Pods-KensakunUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88698BF9AE3C5002A2C469F8 /* Pods-Kensakun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kensakun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kensakun/Pods-Kensakun.debug.xcconfig"; sourceTree = "<group>"; };
+		A824B99825F96A50F914FA92 /* Pods-KensakunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KensakunUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KensakunUITests/Pods-KensakunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B46FDC85418F5FBB4BFF7A78 /* Pods-Kensakun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kensakun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kensakun/Pods-Kensakun.release.xcconfig"; sourceTree = "<group>"; };
+		ECB65F0F598F7F779CBEFCA7 /* Pods_Kensakun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kensakun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E7BE5A2017283400183DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C82CD615DFE92DCEC054EB4 /* Pods_Kensakun.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E7BE6E2017283500183DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6720A4115602F787C8EC197 /* Pods_KensakunTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E7BE792017283500183DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75814A62655C45F84C6D7CF5 /* Pods_KensakunUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52731EF57AFC59F9CD8F4382 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88698BF9AE3C5002A2C469F8 /* Pods-Kensakun.debug.xcconfig */,
+				B46FDC85418F5FBB4BFF7A78 /* Pods-Kensakun.release.xcconfig */,
+				7FDC19A721CFF35601530B63 /* Pods-KensakunTests.debug.xcconfig */,
+				43A126AC05C7E7FAD4B9AC10 /* Pods-KensakunTests.release.xcconfig */,
+				A824B99825F96A50F914FA92 /* Pods-KensakunUITests.debug.xcconfig */,
+				865627DEE5EF9A8E108CFBEE /* Pods-KensakunUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55032DC6201AF2C500395589 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				552F43972018AEC70013CBEC /* top.swift */,
+				552F439120189ABE0013CBEC /* WelcomeViewController.swift */,
+				552F43992018BE900013CBEC /* AgainWelcomeViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		55E7BE542017283400183DBD = {
+			isa = PBXGroup;
+			children = (
+				55E7BE5F2017283400183DBD /* Kensakun */,
+				55E7BE742017283500183DBD /* KensakunTests */,
+				55E7BE7F2017283500183DBD /* KensakunUITests */,
+				55E7BE5E2017283400183DBD /* Products */,
+				52731EF57AFC59F9CD8F4382 /* Pods */,
+				DFA625758CBDC9A3201932CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55E7BE5E2017283400183DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E7BE5D2017283400183DBD /* Kensakun.app */,
+				55E7BE712017283500183DBD /* KensakunTests.xctest */,
+				55E7BE7C2017283500183DBD /* KensakunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E7BE5F2017283400183DBD /* Kensakun */ = {
+			isa = PBXGroup;
+			children = (
+				55032DC6201AF2C500395589 /* login */,
+				55E7BE8E20172C4700183DBD /* GoogleService-Info.plist */,
+				552F439320189C320013CBEC /* Helper Files.swift */,
+				55E7BE602017283400183DBD /* AppDelegate.swift */,
+				55E7BE642017283400183DBD /* Main.storyboard */,
+				55E7BE672017283400183DBD /* Assets.xcassets */,
+				55E7BE692017283400183DBD /* LaunchScreen.storyboard */,
+				55E7BE6C2017283400183DBD /* Info.plist */,
+				55E7BE622017283400183DBD /* PostViewController.swift */,
+				552F438D201887940013CBEC /* CustomTableViewCell.swift */,
+				552F438F20188DC60013CBEC /* tableWantsViewController.swift */,
+				55032DC9201B07E600395589 /* detailOfWantViewController.swift */,
+				558EB30B207DFB0600698EC0 /* MessageViewController.swift */,
+			);
+			path = Kensakun;
+			sourceTree = "<group>";
+		};
+		55E7BE742017283500183DBD /* KensakunTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E7BE752017283500183DBD /* KensakunTests.swift */,
+				55E7BE772017283500183DBD /* Info.plist */,
+			);
+			path = KensakunTests;
+			sourceTree = "<group>";
+		};
+		55E7BE7F2017283500183DBD /* KensakunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E7BE802017283500183DBD /* KensakunUITests.swift */,
+				55E7BE822017283500183DBD /* Info.plist */,
+			);
+			path = KensakunUITests;
+			sourceTree = "<group>";
+		};
+		DFA625758CBDC9A3201932CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB65F0F598F7F779CBEFCA7 /* Pods_Kensakun.framework */,
+				44920761CCF3E74014A267C0 /* Pods_KensakunTests.framework */,
+				3FA94D2D48C58C0A11BED3C6 /* Pods_KensakunUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E7BE5C2017283400183DBD /* Kensakun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E7BE852017283500183DBD /* Build configuration list for PBXNativeTarget "Kensakun" */;
+			buildPhases = (
+				2F1786A7E1D7161B70E0C4C8 /* [CP] Check Pods Manifest.lock */,
+				55E7BE592017283400183DBD /* Sources */,
+				55E7BE5A2017283400183DBD /* Frameworks */,
+				55E7BE5B2017283400183DBD /* Resources */,
+				6F2E18D384F13DEF2B53839A /* [CP] Embed Pods Frameworks */,
+				485083D8176047634D1FC10D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kensakun;
+			productName = Kensakun;
+			productReference = 55E7BE5D2017283400183DBD /* Kensakun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E7BE702017283500183DBD /* KensakunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E7BE882017283500183DBD /* Build configuration list for PBXNativeTarget "KensakunTests" */;
+			buildPhases = (
+				FC2023DEB9363FC6AFFE21FB /* [CP] Check Pods Manifest.lock */,
+				55E7BE6D2017283500183DBD /* Sources */,
+				55E7BE6E2017283500183DBD /* Frameworks */,
+				55E7BE6F2017283500183DBD /* Resources */,
+				F320A4F0611072058C419F02 /* [CP] Embed Pods Frameworks */,
+				90287DEEC330E9C59C7FCBC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E7BE732017283500183DBD /* PBXTargetDependency */,
+			);
+			name = KensakunTests;
+			productName = KensakunTests;
+			productReference = 55E7BE712017283500183DBD /* KensakunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E7BE7B2017283500183DBD /* KensakunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E7BE8B2017283500183DBD /* Build configuration list for PBXNativeTarget "KensakunUITests" */;
+			buildPhases = (
+				18A4EB40449EF0AF7A438049 /* [CP] Check Pods Manifest.lock */,
+				55E7BE782017283500183DBD /* Sources */,
+				55E7BE792017283500183DBD /* Frameworks */,
+				55E7BE7A2017283500183DBD /* Resources */,
+				0EAC7323F508BE7808950A3A /* [CP] Embed Pods Frameworks */,
+				51CDD257A10582D821FB3559 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E7BE7E2017283500183DBD /* PBXTargetDependency */,
+			);
+			name = KensakunUITests;
+			productName = KensakunUITests;
+			productReference = 55E7BE7C2017283500183DBD /* KensakunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E7BE552017283400183DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Kohei Masumi";
+				TargetAttributes = {
+					55E7BE5C2017283400183DBD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					55E7BE702017283500183DBD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E7BE5C2017283400183DBD;
+					};
+					55E7BE7B2017283500183DBD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E7BE5C2017283400183DBD;
+					};
+				};
+			};
+			buildConfigurationList = 55E7BE582017283400183DBD /* Build configuration list for PBXProject "Kensakun" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E7BE542017283400183DBD;
+			productRefGroup = 55E7BE5E2017283400183DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E7BE5C2017283400183DBD /* Kensakun */,
+				55E7BE702017283500183DBD /* KensakunTests */,
+				55E7BE7B2017283500183DBD /* KensakunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E7BE5B2017283400183DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E7BE6B2017283400183DBD /* LaunchScreen.storyboard in Resources */,
+				55E7BE682017283400183DBD /* Assets.xcassets in Resources */,
+				55E7BE8F20172C4700183DBD /* GoogleService-Info.plist in Resources */,
+				55E7BE662017283400183DBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E7BE6F2017283500183DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E7BE7A2017283500183DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EAC7323F508BE7808950A3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KensakunUITests/Pods-KensakunUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18A4EB40449EF0AF7A438049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KensakunUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F1786A7E1D7161B70E0C4C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kensakun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485083D8176047634D1FC10D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kensakun/Pods-Kensakun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51CDD257A10582D821FB3559 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KensakunUITests/Pods-KensakunUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F2E18D384F13DEF2B53839A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kensakun/Pods-Kensakun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kensakun/Pods-Kensakun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90287DEEC330E9C59C7FCBC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KensakunTests/Pods-KensakunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F320A4F0611072058C419F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KensakunTests/Pods-KensakunTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KensakunTests/Pods-KensakunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2023DEB9363FC6AFFE21FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KensakunTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E7BE592017283400183DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55032DCA201B07E600395589 /* detailOfWantViewController.swift in Sources */,
+				552F439A2018BE900013CBEC /* AgainWelcomeViewController.swift in Sources */,
+				552F439220189ABE0013CBEC /* WelcomeViewController.swift in Sources */,
+				55E7BE632017283400183DBD /* PostViewController.swift in Sources */,
+				552F438E201887940013CBEC /* CustomTableViewCell.swift in Sources */,
+				552F43982018AEC70013CBEC /* top.swift in Sources */,
+				558EB30C207DFB0600698EC0 /* MessageViewController.swift in Sources */,
+				552F439020188DC60013CBEC /* tableWantsViewController.swift in Sources */,
+				55E7BE612017283400183DBD /* AppDelegate.swift in Sources */,
+				552F439420189C320013CBEC /* Helper Files.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E7BE6D2017283500183DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E7BE762017283500183DBD /* KensakunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E7BE782017283500183DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E7BE812017283500183DBD /* KensakunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E7BE732017283500183DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E7BE5C2017283400183DBD /* Kensakun */;
+			targetProxy = 55E7BE722017283500183DBD /* PBXContainerItemProxy */;
+		};
+		55E7BE7E2017283500183DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E7BE5C2017283400183DBD /* Kensakun */;
+			targetProxy = 55E7BE7D2017283500183DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E7BE642017283400183DBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E7BE652017283400183DBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E7BE692017283400183DBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E7BE6A2017283400183DBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E7BE832017283500183DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55E7BE842017283500183DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E7BE862017283500183DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88698BF9AE3C5002A2C469F8 /* Pods-Kensakun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = Kensakun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kensakun.Kensakun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E7BE872017283500183DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46FDC85418F5FBB4BFF7A78 /* Pods-Kensakun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = Kensakun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kensakun.Kensakun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55E7BE892017283500183DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDC19A721CFF35601530B63 /* Pods-KensakunTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = KensakunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kensakun.KensakunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kensakun.app/Kensakun";
+			};
+			name = Debug;
+		};
+		55E7BE8A2017283500183DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A126AC05C7E7FAD4B9AC10 /* Pods-KensakunTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = KensakunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kensakun.KensakunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kensakun.app/Kensakun";
+			};
+			name = Release;
+		};
+		55E7BE8C2017283500183DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A824B99825F96A50F914FA92 /* Pods-KensakunUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = KensakunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kensakun.KensakunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kensakun;
+			};
+			name = Debug;
+		};
+		55E7BE8D2017283500183DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865627DEE5EF9A8E108CFBEE /* Pods-KensakunUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = KensakunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kensakun.KensakunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kensakun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E7BE582017283400183DBD /* Build configuration list for PBXProject "Kensakun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E7BE832017283500183DBD /* Debug */,
+				55E7BE842017283500183DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E7BE852017283500183DBD /* Build configuration list for PBXNativeTarget "Kensakun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E7BE862017283500183DBD /* Debug */,
+				55E7BE872017283500183DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E7BE882017283500183DBD /* Build configuration list for PBXNativeTarget "KensakunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E7BE892017283500183DBD /* Debug */,
+				55E7BE8A2017283500183DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E7BE8B2017283500183DBD /* Build configuration list for PBXNativeTarget "KensakunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E7BE8C2017283500183DBD /* Debug */,
+				55E7BE8D2017283500183DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E7BE552017283400183DBD /* Project object */;
+}
