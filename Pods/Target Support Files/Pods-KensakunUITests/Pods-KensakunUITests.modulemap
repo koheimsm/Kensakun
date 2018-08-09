@@ -1,6 +1,0 @@
-framework module Pods_KensakunUITests {
-  umbrella header "Pods-KensakunUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
